@@ -1,0 +1,144 @@
+body {
+  background-color: var(--grey-color);
+}
+
+.site-container {
+  background-color: var(--grey-color);
+}
+
+.title {
+  color: var(--white-color);
+}
+
+.btn {
+  color: var(--light-color);
+  background-color: var(--green-dark);
+}
+
+.header {
+  background-color: var(--grey-color);
+}
+.header.scroll {
+  -webkit-box-shadow: 0 0 10px 0px rgba(0, 184, 113, 0.4);
+  box-shadow: 0 0 10px 0px rgba(0, 184, 113, 0.4);
+}
+.header .nav > ul > li > a {
+  color: var(--white-color);
+}
+@media (min-width: 769px) {
+  .header .nav > ul > li > a:hover {
+    color: var(--green-dark);
+  }
+  .header .nav > ul > li > a:after {
+    background-color: var(--green-dark);
+  }
+  .header .nav > ul > li > a.active {
+    color: var(--green-dark);
+  }
+}
+@media (max-width: 768px) {
+  .header .nav > ul {
+    -webkit-box-shadow: 0px 0px 16px 4px rgba(47, 223, 132, 0.15);
+    box-shadow: 0px 0px 16px 4px rgba(47, 223, 132, 0.15);
+    border: 1px solid var(--green-light);
+  }
+}
+@media (max-width: 768px) {
+  .header .nav {
+    background-color: var(--grey-color);
+  }
+}
+.header .burger {
+  color: var(--white-color);
+}
+
+.hero__content h1 span {
+  color: var(--white-color);
+}
+.hero__subtitle {
+  color: var(--white-color);
+}
+
+.services__title {
+  color: var(--white-color);
+}
+.services__subtitle {
+  color: var(--white-color);
+}
+.services__name {
+  color: var(--white-color);
+}
+.services__text {
+  color: var(--white-color);
+}
+
+.how-its-work {
+  background-color: var(--grey-color);
+}
+.how-its-work__subtitle {
+  color: var(--white-color);
+}
+.how-its-work__name {
+  color: var(--white-color);
+}
+.how-its-work__text {
+  color: var(--white-color);
+}
+
+.price__subtitle {
+  color: var(--white-color);
+}
+
+.gallery {
+  background-color: var(--grey-color);
+}
+
+.faq {
+  background-color: var(--grey-color);
+}
+.faq__subtitle {
+  color: var(--white-color);
+}
+.faq__description {
+  color: var(--white-color);
+}
+.faq__description > a {
+  color: var(--white-color);
+}
+
+.accordion {
+  background: var(--grey-color);
+}
+.accordion__content {
+  border: 2px solid #333;
+  background: var(--grey-color);
+}
+.accordion__content.open .accordion__title {
+  color: var(--green-dark);
+}
+.accordion__title {
+  color: var(--white-color);
+}
+.accordion__description {
+  color: var(--white-color);
+}
+
+.contact {
+  background-color: var(--grey-color);
+}
+.contact__descr {
+  color: var(--white-color);
+}
+.contact__address > ul > li {
+  color: var(--white-color);
+}
+.contact__address > ul > li svg path {
+  fill: var(--white-color);
+}
+.contact__address > ul > li > a {
+  color: var(--white-color);
+}
+.contact__social > ul > li > a svg path {
+  fill: var(--white-color);
+}
+/*# sourceMappingURL=theme-dark.css.map */
